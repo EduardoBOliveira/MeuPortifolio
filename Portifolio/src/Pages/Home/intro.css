@@ -9,12 +9,26 @@ body {
   }
 
 .intro {
+  background-image: url(../../assets/tela_fundo1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12em;
-  gap: 15em;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 15%;
 }
+
+.corpo_da_tela_intro {
+  display: flex;
+  flex-direction: column;
+  gap: 100px; 
+}
+
 
 .intro_tipografias {
   display: flex;

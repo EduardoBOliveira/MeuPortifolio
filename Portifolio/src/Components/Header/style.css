@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 6em;
+  background-color: transparent;
 }
 
 .header_lista {
