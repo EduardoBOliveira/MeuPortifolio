@@ -1,3 +1,5 @@
+import "~slick-carousel/slick/slick-theme.css";
+import "~slick-carousel/slick/slick.css";
 import Cards from "../../Components/Cards";
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
@@ -6,6 +8,7 @@ import "./intro.css";
 import "./projetos.css";
 import "./sobre.css";
 import "./tecnologias.css";
+
 
 export default function Home() {
   return (
@@ -115,6 +118,7 @@ export default function Home() {
             Possuo maior proficiência com a linguagem Java, porém domino
             diferentes tecnologias em diferentes setores da programação.
           </p>
+
           <div className="tecnologias_icones">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
@@ -122,72 +126,70 @@ export default function Home() {
               height="80px"
               width="80px"
             />
+
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
               alt="css3"
               height="80px"
               width="80px"
             />
+
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
               alt="git"
               height="80px"
               width="80px"
             />
+
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
               alt="java"
               height="80px"
               width="80px"
             />
+
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
               alt="spring"
               height="80px"
               width="80px"
             />
+
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
               alt="javascript"
               height="80px"
               width="80px"
             />
+
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
               alt="typescript"
               height="80px"
               width="80px"
             />
+
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
               alt="react"
               height="80px"
               width="80px"
             />
+
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
-              alt="postgresql"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg"
+              alt="sqlserver  "
               height="80px"
               width="80px"
             />
+
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
               alt="python"
               height="80px"
               width="80px"
             />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg"
-              alt="photoshop"
-              height="80px"
-              width="80px"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
-              alt="figma"
-              height="80px"
-              width="80px"
-            />
+
           </div>
         </article>
         <article className="projetos">
