@@ -1,6 +1,7 @@
 import Cards from "../../Components/Cards";
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
+import { FaArrowDown } from "react-icons/fa";
 import FotoSecundaria from "../../assets/foto_capa.jpg";
 import "./intro.css";
 import "./projetos.css";
@@ -95,6 +96,17 @@ export default function Home() {
                           GitHub
                         </a>
                       </button>
+                    </li>
+                  </ul>
+                </div>
+                <div className="div_botao_scroll">
+                  <ul className="intro_tipografias_botoes_lista">
+                    <li className="intro_tipografias_botoes_lista_item">
+                      <a href="#sobre" className="link">
+                        <button className="botao_scrol">
+                          <FaArrowDown />
+                        </button>
+                      </a>
                     </li>
                   </ul>
                 </div>

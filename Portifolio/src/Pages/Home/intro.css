@@ -79,6 +79,22 @@ body {
   transition: all 0.3s ease-in, color 0.5s ease;
 }
 
+.div_botao_scroll{
+  padding-top: 3%;
+}
+
+.botao_scrol{
+  color: #ffffff;
+  background: none;
+  width: 10rem;
+  height: 3rem;
+  font-family: var(--fonte-poppins);
+  font-size: 1.7rem;
+  border: 3px solid var(--cor-bordas);
+  border-radius: 0.7em;
+  transition: all 0.3s ease-in, color 0.5s ease; 
+}
+
 .link {
   text-decoration: none;
   color:var(--cor-paragrafos);
