@@ -1,13 +1,9 @@
 .container_header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 6em;
-}
-
-.header_logo {
-  padding-left: 47px;
 }
 
 .header_lista {

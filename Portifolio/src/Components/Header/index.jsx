@@ -1,10 +1,9 @@
 import "./style.css";
-import logo from "../../assets/logo.png";
 
 export default function Header() {
   return (
     <header className="container_header" id="inicio">
-      <img src={logo} alt="Logotipo do desenvolvedor" className="header_logo" />
+
       <ul className="header_lista">
         <li className="header_lista_item">
           <a href="#inicio" className="header_lista_item_link">

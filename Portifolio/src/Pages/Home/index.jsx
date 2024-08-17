@@ -1,11 +1,11 @@
-import "./intro.css";
-import "./sobre.css";
-import "./tecnologias.css";
-import "./projetos.css";
-import Header from "../../Components/Header";
-import FotoSecundaria from "../../assets/foto_capa.jpg";
 import Cards from "../../Components/Cards";
 import Footer from "../../Components/Footer";
+import Header from "../../Components/Header";
+import FotoSecundaria from "../../assets/foto_capa.jpg";
+import "./intro.css";
+import "./projetos.css";
+import "./sobre.css";
+import "./tecnologias.css";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
         <article className="intro">
           <div className="intro_tipografias">
             <p className="intro_tipografias_textos_introducao">Olá!</p>
-            
+
             <p className="intro_tipografias_textos_introducao">
               O que precisa?
             </p>
@@ -41,7 +41,7 @@ export default function Home() {
                       LinkedIn
                     </a>
                   </button>
-                
+
                 </li>
                 <li className="intro_tipografias_botoes_lista_item">
                   <button className="botao">
@@ -50,11 +50,11 @@ export default function Home() {
                     </a>
                   </button>
                 </li>
-                
+
                 <li className="intro_tipografias_botoes_lista_item">
                   <button className="botao">
                     <a
-                      href="https://github.com/paulooosf"
+                      href="https://github.com/EduardoBOliveira"
                       target="_blank"
                       className="link"
                     >
@@ -65,9 +65,9 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          
+
         </article>
-        
+
         <article className="sobre">
           <div className="sobre_titulo" id="sobre">
             <p className="titulo_atras">SOBRE</p>
@@ -81,31 +81,32 @@ export default function Home() {
             />
             <div className="container_texto">
               <p className="sobre_texto">
-                Sou um desenvolvedor FullStack residente no estado do Rio de
-                Janeiro, sempre dedicado em aprender e praticar coisas novas.
+                Sou Eduardo Bezerra, um desenvolvedor apaixonado por tecnologia e inovação.
+                Com experiência sólida em programação e análise de dados,
+                meu foco está em transformar dados em insights acionáveis e soluções eficientes.
+                Possuo uma formação robusta em programação e uma experiência prática significativa como
+                Analista de Dados, onde construí dashboards interativos e relatórios detalhados
+                utilizando Power BI e SQL Server.
               </p>
               <p className="sobre_texto">
-                Apaixonado por tecnologia e programação, iniciei minha carreira
-                no ano de 2024, quando fui aceito no programa de Residência em
-                TIC/Software do Serratec. Durante o programa pude aprender os
-                fundamentos de diferentes vertentes da programação,
-                desenvolvendo desde páginas simples no front-end até APIs
-                complexas no Back-End.
+                <span className="destaque">Habilidades em Programação:</span> Proficiente em linguagens de programação,
+                com uma forte capacidade para resolver problemas complexos e otimizar processos.
               </p>
               <p className="sobre_texto">
-                Aliado com isso, atualmente eu estou cursando Análise e
-                Desenvolvimento de Sistemas na FIAP, com previsão de formação
-                para 2026.
+                <span className="destaque">Análise de Dados:</span> Experiência prática em análise de dados,
+                extração e manipulação de grandes volumes de dados para gerar insights valiosos.
+                Utilizo ferramentas como SQL Server para consultas avançadas e
+                Power BI para criar visualizações interativas e intuitivas.
               </p>
               <p className="sobre_texto">
-                Minha principal missão de vida é auxiliar na construção de um
-                futuro onde a tecnologia seja a maior aliada das pessoas,
-                fazendo com que nossa vida seja cada vez mais prática.
+                <span className="destaque">Criação de Dashboards:</span> Habilidade em desenvolver dashboards personalizados no Power BI,
+                facilitando a visualização e interpretação de dados complexos para suportar a tomada de decisões
+                estratégicas.
               </p>
             </div>
           </div>
         </article>
-        
+
         <article className="tecnologias">
           <p className="tecnologias_titulo" id="tecnologias">
             Tecnologias
