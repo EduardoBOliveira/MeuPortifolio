@@ -37,7 +37,7 @@
 
 .header_lista_item_link_contato:hover {
   color: var(--cor-bordas);
-  background-color: #ffffff;
+  background-color:var(--cor-fundo-do-hoover);
   box-shadow: 0 0 30px 5px var(--cor-bordas);
 }
 

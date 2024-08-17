@@ -1,10 +1,10 @@
 body {
   background: rgb(0, 0, 0);
   background: linear-gradient(
-    #006769,
-    #40A578,
-    #9DDE8B,
-    #E6FF94
+    #3E3232,
+    #503C3C,
+    #3E3232,
+    #3E3232
   )
   }
 
@@ -72,7 +72,7 @@ body {
 }
 
 .botao:hover {
-  background-color: #1F316F;
+  background-color: var(--cor-fundo-do-hoover);
   box-shadow: 0 0 30px 5px var(--cor-bordas);
   cursor: pointer;
   color: var(--cor-paragrafos);

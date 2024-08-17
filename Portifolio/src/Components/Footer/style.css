@@ -49,7 +49,7 @@
 }
 
 .botao:hover .link {
-  color: var(--cor-bordas);
+  color: var(--cor-fundo-do-hoover);
 }
 
 .ano {
