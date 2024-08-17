@@ -7,27 +7,27 @@ export default function Header() {
       <ul className="header_lista">
         <li className="header_lista_item">
           <a href="#inicio" className="header_lista_item_link">
-            Início
+            INICIO
           </a>
         </li>
         <li className="header_lista_item">
           <a href="#sobre" className="header_lista_item_link">
-            Sobre
+            SOBRE
           </a>
         </li>
         <li className="header_lista_item">
           <a href="#tecnologias" className="header_lista_item_link">
-            Tecnologias
+            SKILLS
           </a>
         </li>
         <li className="header_lista_item">
           <a href="#projetos" className="header_lista_item_link">
-            Projetos
+            PROJETOS
           </a>
         </li>
         <li className="header_lista_item">
           <a href="#contato" className="header_lista_item_link_contato">
-            Contato
+            CONTATO
           </a>
         </li>
       </ul>
