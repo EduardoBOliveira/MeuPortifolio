@@ -1,5 +1,3 @@
-import "~slick-carousel/slick/slick-theme.css";
-import "~slick-carousel/slick/slick.css";
 import Cards from "../../Components/Cards";
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
@@ -20,12 +18,12 @@ export default function Home() {
             <p className="intro_tipografias_textos_introducao">Olá!</p>
 
             <p className="intro_tipografias_textos_introducao">
-              O que precisa?
+              Seja Bem Vindo!
             </p>
 
             <p className="intro_tipografias_textos_apresentacao">
-              Me chamo <span className="destaque">Eduardo Bezerra</span>, estou
-              aqui para desenvolver, soluções no back-end e front-end de maneira criativa.
+              Me chamo <span className="destaque">Eduardo Bezerra</span>, um jovem 
+              desenvolvedor, com grande anseio de trabalhar com grandes projetos relacionados a Tecnologia.
             </p>
 
             <p className="intro_tipografias_textos_apresentacao">
@@ -115,8 +113,8 @@ export default function Home() {
             Tecnologias
           </p>
           <p className="tecnologias_texto">
-            Possuo maior proficiência com a linguagem Java, porém domino
-            diferentes tecnologias em diferentes setores da programação.
+            Minha linguagem dominante é <span className="destaque">Python</span>, porem possuo conhecimento em Java, Spring, e frameworks Web,
+            além de ter estagiado em Analise de Dados, utilizando ferramentas como Power BI e SQL Server .
           </p>
 
           <div className="tecnologias_icones">

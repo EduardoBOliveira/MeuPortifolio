@@ -15,9 +15,11 @@ html {
 :root {
   --fonte-poppins: "Poppins", sans-serif;
   --fonte-krona-one: "Krona One", sans-serif;
-  --background-degrade-topo: #10002b;
-  --background-header-degrade-baixo: #502575;
-  --cor-headers: #e0aaff;
-  --cor-destaque-texto: #9d4edd;
-  --cor-roxo-escuro: #3c096c;
+  --cor-paragrafos: #111010;
+  --cor-titulos: #5B99C2;
+  --cor-destaque-texto: #1A4870;
+  --cor-bordas: #1A4870;
+  --cor-body-principal:#F9DBBA;
+  --cor-body-segundarias:#494036;
+  --cor-palavras-menu:#000000;
 }

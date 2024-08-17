@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   height: 20rem;
-  background: linear-gradient(180deg, rgba(16, 0, 43, 0) 0%, #502575 100%);
   justify-content: center;
   align-items: center;
   position: relative;
@@ -10,7 +9,7 @@
 
 .contato {
   font-family: var(--fonte-poppins);
-  color: #fff;
+  color: var(--cor-paragrafos);
   font-size: 20px;
 }
 
@@ -35,31 +34,27 @@
   height: 3rem;
   font-family: var(--fonte-poppins);
   font-size: 1.7rem;
-  border: 3px solid #c77dff;
   border-radius: 0.7em;
   transition: all 0.3s ease-in, color 0.5s ease;
 }
 
 .link {
   text-decoration: none;
-  color: #ffffff;
   width: 5rem;
 }
 
 .botao:hover {
-  background-color: #ffffff;
-  box-shadow: 0 0 30px 5px var(--cor-roxo-escuro);
+  box-shadow: 0 0 30px 5px var(--cor-bordas);
   cursor: pointer;
-  color: black;
 }
 
 .botao:hover .link {
-  color: var(--cor-roxo-escuro);
+  color: var(--cor-bordas);
 }
 
 .ano {
   font-family: var(--fonte-poppins);
-  color: #fff;
+  color: var(--cor-paragrafos);
   font-size: 24px;
   position: absolute;
   bottom: 0.2rem;
@@ -68,7 +63,6 @@
 @media (max-width: 1300px) {
   .container_footer {
     height: 10rem;
-    background: linear-gradient(180deg, rgba(16, 0, 43, 0) 0%, #502575 100%);
   }
 
   .container_contato {

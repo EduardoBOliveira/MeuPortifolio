@@ -1,5 +1,5 @@
 .sobre {
-  background-image: url(../../assets/background_sobre.png);
+ 
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -17,7 +17,7 @@
 .titulo_atras {
   position: absolute;
   z-index: 1;
-  color: var(--cor-roxo-escuro);
+  color: var(--cor-bordas);
   font-family: var(--fonte-krona-one);
   font-size: 6.7rem;
 }
@@ -25,7 +25,7 @@
 .titulo_frente {
   position: absolute;
   z-index: 2;
-  color: var(--cor-headers);
+  color: var(--cor-titulos);
   font-family: var(--fonte-krona-one);
   font-size: 2.3rem;
 }
@@ -49,7 +49,7 @@
 }
 
 .sobre_texto {
-  color: #fff;
+  color: var(--cor-paragrafos);
   font-family: var(--fonte-poppins);
   font-size: 1.5rem;
 }

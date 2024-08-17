@@ -5,7 +5,7 @@
 }
 
 .projetos_titulo {
-  color: var(--cor-headers);
+  color: var(--cor-titulos);
   font-family: var(--fonte-krona-one);
   font-size: 4rem;
 }

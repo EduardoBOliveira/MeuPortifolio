@@ -10,13 +10,13 @@
 
 .tecnologias_titulo {
   font-family: var(--fonte-krona-one);
-  color: var(--cor-headers);
+  color: var(--cor-titulos);
   font-size: 4rem;
 }
 
 .tecnologias_texto {
   font-family: var(--fonte-poppins);
-  color: #fff;
+  color: var(--cor-paragrafos);
   font-size: 1.8rem;
 }
 

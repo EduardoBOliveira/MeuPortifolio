@@ -1,11 +1,12 @@
 body {
   background: rgb(0, 0, 0);
   background: linear-gradient(
-    180deg,
-    rgba(16, 0, 43, 1) 30%,
-    rgb(6, 0, 15) 100%
-  );
-}
+    #006769,
+    #40A578,
+    #9DDE8B,
+    #E6FF94
+  )
+  }
 
 .intro {
   display: flex;
@@ -22,14 +23,14 @@ body {
 
 .intro_tipografias_textos_introducao {
   font-family: var(--fonte-krona-one);
-  color: var(--cor-headers);
+  color: var(--cor-titulos);
   font-size: 5.3rem;
 }
 
 .intro_tipografias_textos_apresentacao {
   font-family: var(--fonte-poppins);
   font-size: 1.8rem;
-  color: #fff;
+  color: var(--cor-paragrafos);
 }
 
 .destaque {
@@ -59,26 +60,26 @@ body {
   height: 3rem;
   font-family: var(--fonte-poppins);
   font-size: 1.7rem;
-  border: 3px solid var(--cor-roxo-escuro);
+  border: 3px solid var(--cor-bordas);
   border-radius: 0.7em;
   transition: all 0.3s ease-in, color 0.5s ease;
 }
 
 .link {
   text-decoration: none;
-  color: #ffffff;
+  color:var(--cor-paragrafos);
   width: 5rem;
 }
 
 .botao:hover {
-  background-color: #ffffff;
-  box-shadow: 0 0 30px 5px var(--cor-roxo-escuro);
+  background-color: #1F316F;
+  box-shadow: 0 0 30px 5px var(--cor-bordas);
   cursor: pointer;
-  color: black;
+  color: var(--cor-paragrafos);
 }
 
 .botao:hover .link {
-  color: var(--cor-roxo-escuro);
+  color: var(--cor-bordas);
 }
 
 .intro_foto {
