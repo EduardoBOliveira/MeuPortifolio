@@ -2,7 +2,7 @@ import Cards from "../../Components/Cards";
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
 import { FaArrowDown } from "react-icons/fa";
-import FotoSecundaria from "../../assets/foto_capa.jpg";
+import FotoSecundaria from "../../assets/linha_do_tempo.svg";
 import "./intro.css";
 import "./projetos.css";
 import "./sobre.css";
@@ -119,10 +119,6 @@ export default function Home() {
         <article className="sobre">
           <div id="sobre">
             <Header />
-              <div className="sobre_titulo">
-                <p className="titulo_atras">SOBRE</p>
-                <p className="titulo_frente">Quem sou eu?</p>
-              </div>
 
               <div className="sobre_container">
                 <img

@@ -1,14 +1,12 @@
 body {
-  background: rgb(0, 0, 0);
+  background: rgb(250, 250, 250);
   background: linear-gradient(
-    #322C2B,
-    #803D3B,
-    #AF8260,
-    #E4C59E
+    
   )
   }
 
 .intro {
+  background-color: black;
   background-image: url(../../assets/tela_fundo1.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,19 +35,19 @@ body {
 
 .intro_tipografias_textos_introducao {
   font-family: var(--fonte-krona-one);
-  color: var(--cor-titulos);
+  color: var(--cor-titulos-tela-inicial);
   font-size: 5.3rem;
 }
 
 .intro_tipografias_textos_apresentacao {
   font-family: var(--fonte-poppins);
   font-size: 1.8rem;
-  color: var(--cor-paragrafos);
+  color: var(--cor-paragrafos-tela-inicial);
 }
 
 .destaque {
   font-family: var(--fonte-poppins);
-  color: var(--cor-destaque-texto);
+  color: var(--cor-destaque-texto-tela-inicial);
 }
 
 .intro_tipografias_textos {
@@ -74,7 +72,7 @@ body {
   height: 3rem;
   font-family: var(--fonte-poppins);
   font-size: 1.7rem;
-  border: 3px solid var(--cor-bordas);
+  border: 3px solid var(--cor-bordas-tela-inicial);
   border-radius: 0.7em;
   transition: all 0.3s ease-in, color 0.5s ease;
 }
@@ -90,7 +88,7 @@ body {
   height: 5rem; /* Mantendo a altura */
   font-family: var(--fonte-poppins);
   font-size: 1.7rem;
-  border: 3px solid var(--cor-bordas);
+  border: 3px solid var(--cor-bordas-tela-inicial);
   border-radius: 50%; /* Fazendo o botão ser um círculo */
   transition: all 0.3s ease-in, color 0.5s ease; 
   display: flex;
@@ -100,27 +98,27 @@ body {
 }
 
 .botao_scrol:hover{
-  background-color: var(--cor-fundo-do-hoover);
-  box-shadow: 0 0 30px 5px var(--cor-bordas);
+  background-color: var(--cor-fundo-do-hoover-tela-inicial);
+  box-shadow: 0 0 30px 5px var(--cor-bordas-tela-inicial);
   cursor: pointer;
-  color: var(--cor-paragrafos);
+  color: var(--cor-paragrafos-tela-inicial);
 }
 
 .link {
   text-decoration: none;
-  color:var(--cor-paragrafos);
+  color:var(--cor-paragrafos-tela-inicial);
   width: 5rem;
 }
 
 .botao:hover {
-  background-color: var(--cor-fundo-do-hoover);
-  box-shadow: 0 0 30px 5px var(--cor-bordas);
+  background-color: var(--cor-fundo-do-hoover-tela-inicial);
+  box-shadow: 0 0 30px 5px var(--cor-bordas-tela-inicial);
   cursor: pointer;
-  color: var(--cor-paragrafos);
+  color: var(--cor-paragrafos-tela-inicial);
 }
 
 .botao:hover .link {
-  color: var(--cor-bordas);
+  color: var(--cor-bordas-tela-inicial);
 }
 
 .intro_foto {

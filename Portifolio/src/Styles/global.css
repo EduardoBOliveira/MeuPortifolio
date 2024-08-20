@@ -15,12 +15,20 @@ html {
 :root {
   --fonte-poppins: "Poppins", sans-serif;
   --fonte-krona-one: "Krona One", sans-serif;
-  --cor-paragrafos: #FFFF;
-  --cor-titulos: #FFFFFF;
+  --cor-paragrafos-tela-inicial: #FFFF;
+  --cor-titulos-tela-inicial: #FFFFFF;
+  --cor-destaque-texto-tela-inicial: #ECB176;
+  --cor-bordas-tela-inicial: #FED8B1;
+  --cor-palavras-tela-inicial:#FFF;
+  --cor-fundo-do-hoover-tela-inicial:#ECB176;
+
+  
+  --cor-paragrafos: #000000;
+  --cor-titulos: #0a0a0a;
   --cor-destaque-texto: #ECB176;
   --cor-bordas: #FED8B1;
   --cor-body-principal:#F9DBBA;
   --cor-body-segundarias:#494036;
-  --cor-palavras-menu:#FFF;
+  --cor-palavras-menu:#020202;
   --cor-fundo-do-hoover:#ECB176;
 }
