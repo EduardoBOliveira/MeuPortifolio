@@ -1,6 +1,7 @@
 import Cards from "../../Components/Cards";
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
+import MenuInicial from "../../Components/Menu-Inicial";
 import { FaArrowDown } from "react-icons/fa";
 import FotoSecundaria from "../../assets/linha_do_tempo.svg";
 import "./intro.css";
@@ -17,35 +18,7 @@ export default function Home() {
         <article className="intro">
           <div className="corpo_da_tela_intro">
            
-            <header className="container_header" id="inicio">
-              <ul className="header_lista">
-                <li className="header_lista_item">
-                  <a href="#inicio" className="header_lista_item_link">
-                    INICIO
-                  </a>
-                </li>
-                <li className="header_lista_item">
-                  <a href="#sobre" className="header_lista_item_link">
-                    SOBRE
-                  </a>
-                </li>
-                <li className="header_lista_item">
-                  <a href="#tecnologias" className="header_lista_item_link">
-                    SKILLS
-                  </a>
-                </li>
-                <li className="header_lista_item">
-                  <a href="#projetos" className="header_lista_item_link">
-                    PROJETOS
-                  </a>
-                </li>
-                <li className="header_lista_item">
-                  <a href="#contato" className="header_lista_item_link_contato">
-                    CONTATO
-                  </a>
-                </li>
-              </ul>
-            </header>
+           <MenuInicial/>
 
             <div>
               <div className="intro_tipografias">
@@ -56,22 +29,22 @@ export default function Home() {
                 </p>
 
                 <p className="intro_tipografias_textos_apresentacao">
-                  Me chamo <span className="destaque">Eduardo Bezerra</span>, um jovem 
+                  Me chamo <span className="destaque_inicial">Eduardo Bezerra</span>, um jovem 
                   desenvolvedor, com grande anseio de trabalhar com grandes projetos relacionados a Tecnologia.
                 </p>
 
                 <p className="intro_tipografias_textos_apresentacao">
-                  <span className="destaque"> Vamos conversar?</span>
+                  <span className="destaque_inicial"> Vamos conversar?</span>
                 </p>
 
                 <div className="intro_tipografias_botoes">
                   <ul className="intro_tipografias_botoes_lista">
                     <li className="intro_tipografias_botoes_lista_item">
-                      <button className="botao">
+                      <button className="botao_inicial">
                         <a
                           href="https://www.linkedin.com/in/eduardo-bezerra-oliveira/"
                           target="_blank"
-                          className="link"
+                          className="link_inicial"
                         >
                           LinkedIn
                         </a>
@@ -79,19 +52,19 @@ export default function Home() {
 
                     </li>
                     <li className="intro_tipografias_botoes_lista_item">
-                      <button className="botao">
-                        <a href="#contato" className="link">
+                      <button className="botao_inicial">
+                        <a href="#contato" className="link_inicial">
                           E-mail
                         </a>
                       </button>
                     </li>
 
                     <li className="intro_tipografias_botoes_lista_item">
-                      <button className="botao">
+                      <button className="botao_inicial">
                         <a
                           href="https://github.com/EduardoBOliveira"
                           target="_blank"
-                          className="link"
+                          className="link_inicial"
                         >
                           GitHub
                         </a>
@@ -102,7 +75,7 @@ export default function Home() {
                 <div className="div_botao_scroll">
                   <ul className="intro_tipografias_botoes_lista">
                     <li className="intro_tipografias_botoes_lista_item">
-                      <a href="#sobre" className="link">
+                      <a href="#sobre" className="link_inicial">
                         <button className="botao_scrol">
                           <FaArrowDown />
                         </button>

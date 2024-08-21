@@ -47,6 +47,11 @@ body {
 
 .destaque {
   font-family: var(--fonte-poppins);
+  color: var(--cor-destaque-texto);
+}
+
+.destaque_inicial {
+  font-family: var(--fonte-poppins);
   color: var(--cor-destaque-texto-tela-inicial);
 }
 
@@ -67,6 +72,17 @@ body {
 }
 
 .botao {
+  background: none;
+  width: 10rem;
+  height: 3rem;
+  font-family: var(--fonte-poppins);
+  font-size: 1.7rem;
+  border: 3px solid var(--cor-bordas);
+  border-radius: 0.7em;
+  transition: all 0.3s ease-in, color 0.5s ease;
+}
+
+.botao_inicial{
   background: none;
   width: 10rem;
   height: 3rem;
@@ -106,11 +122,24 @@ body {
 
 .link {
   text-decoration: none;
+  color:var(--cor-paragrafos);
+  width: 5rem;
+}
+
+.link_inicial {
+  text-decoration: none;
   color:var(--cor-paragrafos-tela-inicial);
   width: 5rem;
 }
 
 .botao:hover {
+  background-color: var(--cor-fundo-do-hoover);
+  box-shadow: 0 0 30px 5px var(--cor-bordas);
+  cursor: pointer;
+  color: var(--cor-paragrafos);
+}
+
+.botao_inicial:hover {
   background-color: var(--cor-fundo-do-hoover-tela-inicial);
   box-shadow: 0 0 30px 5px var(--cor-bordas-tela-inicial);
   cursor: pointer;
@@ -118,6 +147,10 @@ body {
 }
 
 .botao:hover .link {
+  color: var(--cor-bordas);
+}
+
+.botao_inicial:hover .link_inicial {
   color: var(--cor-bordas-tela-inicial);
 }
 
