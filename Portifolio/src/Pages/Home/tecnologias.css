@@ -12,6 +12,7 @@
   font-family: var(--fonte-krona-one);
   color: var(--cor-titulos);
   font-size: 4rem;
+  margin-top: 2rem;
 }
 
 .tecnologias_texto {

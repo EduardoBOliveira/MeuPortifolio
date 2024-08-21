@@ -37,7 +37,7 @@
 .sobre_corpo {
   display: flex;
   padding: 4rem;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
 }
 
@@ -49,13 +49,34 @@
 .container_texto {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 1rem;
 }
 
 .sobre_texto {
   color: var(--cor-paragrafos);
   font-family: var(--fonte-poppins);
   font-size: 1.5rem;
+  border: 2px solid var(--cor-bordas); /* Cor da borda */
+  border-radius: 8px; /* Cantos arredondados */
+  padding: 16px; /* Espaçamento interno */
+  margin: 20px auto; /* Margem para centralizar */
+  max-width: 600px; /* Largura máxima */
+  background-color: #f9f9f9; /* Cor de fundo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: border-color 0.5s ease, box-shadow 0.5s ease; /* Transição suave */
+}
+
+.sobre_texto:hover{
+  border-color: #0056b3; /* Cor da borda ao passar o mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada ao passar o mouse */
+}
+
+.texto02{
+  margin-left: 10rem;
+}
+
+.texto03{
+  margin-left: 20rem;
 }
 
 @media (max-width: 1300px) {
