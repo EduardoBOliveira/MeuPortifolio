@@ -90,10 +90,10 @@ export default function Home() {
         </article>
 
         <article className="sobre">
-          <div id="sobre">
-            <Header />
+          <div id="sobre" className="sobre_container">
 
-              <div className="sobre_container">
+            <Header />
+              <div className="sobre_corpo">
                 <img
                   src={FotoSecundaria}
                   alt="Foto do desenvolvedor Eduardo Bezerra, um homem branco com cabelo castanho claro e olhos castanhos."

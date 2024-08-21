@@ -1,9 +1,13 @@
 .sobre {
- 
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
+}
+
+.sobre_container{
+  padding: auto;
+  
 }
 
 .sobre_titulo {
@@ -30,9 +34,9 @@
   font-size: 2.3rem;
 }
 
-.sobre_container {
+.sobre_corpo {
   display: flex;
-  padding: 7rem;
+  padding: 4rem;
   gap: 2rem;
   align-items: center;
 }
