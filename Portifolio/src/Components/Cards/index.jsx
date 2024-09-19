@@ -2,7 +2,7 @@ import "./style.css";
 import BotaoAbrir from "../../assets/abrir.svg";
 import Pokedex from "../../assets/projetos/pokedex.png";
 import UruBank from "../../assets/projetos/urubank.png";
-import Portfolio from "../../assets/projetos/portfolio.png";
+import Portfolio from "../../assets/projetos/portifolio.png";
 
 export default function Cards() {
   return (
@@ -41,15 +41,15 @@ export default function Cards() {
         
         <div className="card">
           <p className="card__name">Portfólio</p>
-          <a href="https://github.com/paulooosf/paulooosf.github.io" target="_blank">
+          <a href="https://github.com/EduardoBOliveira/MeuPortifolio" target="_blank">
             <img src={BotaoAbrir} alt="" className="card__open" />
           </a>
           <img src={Portfolio} alt="" className="card__image" />
           <div className="card__content">
             <p className="card__title">Portfólio</p>
             <p className="card__description">
-              Landing page para servir de portfólio profissional. Desenvolvida
-              individualmente utilizando Figma e React.
+              Landing page para servir de portfólio profissional e agrupar projetos
+              pessoais.
             </p>
           </div>
         </div>
